@@ -3,8 +3,19 @@ import turtle
 
 t = turtle.Turtle()
 
-
-t.forward(50)
+size = 50
+t.forward(size)
+t.left(120)
+t.forward(size)
+t.left(120)
+t.forward(size)
+t.left(120)
+for _ in range(4):
+    sizeF = 200
+    sizeR = 90
+    t.color("blue")
+    t.forward(sizeF)
+    t.right(sizeR)
 
 turtle.done()
 
